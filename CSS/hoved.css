@@ -6,15 +6,11 @@ margin: 0px;
   }
 
   h2 {
-    text-indent: -5%;
-    text-align: center;
     font-size: 32px;
   }
 
   h3 {
-    text-align: center;
     font-size: 20px;
-    text-indent: -5%;
   }
 
 .container-1 {
@@ -22,9 +18,15 @@ margin: 0px;
   grid-template-columns: repeat(13, 1fr);
   margin-top: 1%;
   margin-left: 22%;
-  margin-right:1%
-  
+  margin-right:2% 
+  }
+
+@media screen and (max-width: 700px) {
+  .container-1 {
+   margin-left:2%;
+  }
 }
+
 
 .section-1 {
   border: 10px solid #5b5ec5;;
@@ -50,6 +52,8 @@ margin: 0px;
     overflow: auto;
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
+    text-align: center;
+    text-indent: -5%;
   }
 
   .sidebar a {
@@ -103,4 +107,56 @@ margin: 0px;
   }
 
 /* sidebar - slutt*/
+
+/*gradering*/
+#grad1 {
+  grid-area: 13 / 1 / span 1 / span 13;
+  height: 400px;
+  margin-left: -50%;
+  margin-right: -2.65%;
+  margin-bottom: 0;
+  background-color: rgba(255, 255, 255, 0); /* For browsers that do not support gradients */
+  background-image: linear-gradient(rgba(255, 255, 255, 0), #5b5ec5);
+}
+
+.portrett {
+  height: 350px;
+  width: auto;
+  margin-left: 563px;
+  margin-right: 0px;
+}
+
+.section-2{
+  margin-top: 20px;
+  grid-area: 2 / 1 / span 1 / span 13;
+  background-color: aqua;
+}
+
+.section-3{
+  margin-top: 20px;
+  grid-area: 3 / 1 / span 1 / span 13;
+  text-align: center;
+}
+
+.b1 {
+  height: 250px;
+  width: auto;
+}
+
+.b2 {
+  height: 200px;
+  width: auto;
+}
+
+.b3 {
+  height: 300px;
+  width: auto;
+}
+
+.spill-1{
+  grid-area: 4 / 1 / span 1 / span 3;
+  margin-top: 20px;
+  border: 5px solid black;
+  text-align: center;
+}
 
