@@ -104,26 +104,16 @@ body {
       }
     
     /* sidebar - slutt*/
-    
-    /*gradering*/
-    #grad1 {
-      grid-area: 13 / 1 / span 1 / span 13;
-      height: 400px;
-      margin-left: -50%;
-      margin-right: -2.9%;
-      margin-bottom: 0%;
-      background-color: rgba(255, 255, 255, 0); /* For browsers that do not support gradients */
-      background-image: linear-gradient(rgba(255, 255, 255, 0), #5b5ec5);
-    }
 
 /* Styling for hver flexbox item */
 .section-2 {
   grid-area: 2 / 1 / span 1 / span 13;
-  margin-top: 20px;
-  padding: 40px;
+  margin-top: 50px;
+  padding: 20px;
   font-size: 24px;
-  background-color: #d9ecfd;
+  background-color: white;
   border: solid #5b5ec5 5px;
+  text-align: center;
 }
 
 table, th, td {
@@ -132,4 +122,16 @@ table, th, td {
   padding: 10px;
   min-width: 100px;
   font-size: 16px;
+  background-color: #d9ecfd;
+}
+
+ /*gradering*/
+ #grad1 {
+  grid-area: 13 / 1 / span 1 / span 13;
+  height: 400px;
+  margin-left: -50%;
+  margin-right: 0%;
+  margin-bottom: 0%;
+  background-color: rgba(255, 255, 255, 0); /* For browsers that do not support gradients */
+  background-image: linear-gradient(rgba(255, 255, 255, 0), #5b5ec5);
 }
