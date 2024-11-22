@@ -122,14 +122,15 @@ margin: 0px;
 .portrett {
   height: 350px;
   width: auto;
-  margin-left: 563px;
+  margin-left: 500px;
   margin-right: 0px;
 }
 
 .section-2{
   margin-top: 20px;
   grid-area: 2 / 1 / span 1 / span 13;
-  background-color: aqua;
+  border: solid rgba(0, 0, 0, 0.496) 5px;
+  padding: 10px;
 }
 
 .section-3{

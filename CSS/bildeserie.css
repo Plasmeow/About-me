@@ -104,4 +104,24 @@
     
     /* sidebar - slutt*/
     
+   .section-2 {
+     grid-area: 2 / 1 / span 1 / span 13;
+     text-align: center;
+     margin-top: 50px;
+    }
+
+    .bildeserie {
+      height: 250px;
+      width: auto;
+    }
     
+/*gradering*/
+#grad1 {
+  grid-area: 13 / 1 / span 1 / span 13;
+  height: 400px;
+  margin-left: -50%;
+  margin-right: -1.2%;
+  margin-bottom: 0;
+  background-color: rgba(255, 255, 255, 0); /* For browsers that do not support gradients */
+  background-image: linear-gradient(rgba(255, 255, 255, 0), #f19020);
+}
