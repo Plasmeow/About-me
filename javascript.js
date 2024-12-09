@@ -23,3 +23,5 @@ function play(value) {
         console.log("Dataen vant")
     }
 }
+
+//BENT KODE - SLETT SENERE

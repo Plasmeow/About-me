@@ -101,3 +101,42 @@ function longestString() {
 })[0];
 }
 console.log(longestString())
+
+for (var i = 1; i < 51; i++) {
+  if (i % 15 == 0) console.log("FizzBuzz");
+  else if (i % 3 == 0) console.log("Fizz");
+  else if (i % 5 == 0) console.log("Buzz");
+  else console.log(i);
+}
+
+let tall3 = 5
+let tall4 = 2
+let op = "*"
+console.log(tall3, op, tall4)
+
+function reverseString(str) {
+  return str.split("").reverse("").join("");   //split deler streng til individuelle tegn,reverse snur rekkefølgen, join gjør om til streng
+}
+console.log(reverseString("Du duger"))
+
+
+
+function sumArray(arr) {
+  return arr.reduce((sum, num) => sum + num, 0);
+}
+console.log(sumArray([1, 2, 3, 4]))
+
+function multiTabell(num) {
+  for (let i = 1; i <= 10; i++) {
+    console.log(`${num} x ${i} = ${num * i}`);
+  
+} }
+
+multiTabell(5);
+
+// <= sjekker om en verdi er mindre enn eller like stor som
+// i++ øker verdien av i med 1
+
+// num definerer man etter funksjonen er skrevet
+// `` er en type streng som lar deg skrive inn variabler og uttryk
+// Alt mellom ${} evalueres og resultatet settes i strengen
