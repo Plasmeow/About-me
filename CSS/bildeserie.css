@@ -1,8 +1,14 @@
+/*grunn*/
+f {
+  letter-spacing: 2px;
+}
+
+
 .section-2 {
   color: white;
   letter-spacing: 0.5px;
   grid-area: 2 / 2 / span 1 / span 13;
-  text-align: c;
+  text-align: left;
   margin-top: 25px;
   margin-bottom: 50px;
   margin-left: 20px;
@@ -17,47 +23,31 @@
    height: 250px;
    width: auto;
  }
- 
 
-/*grønn*/
+/*oransje*/
 body {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
 }
 
-/*topbar*/
-.topbar {
+/*topbar, sidebar, dropdown*/
+.topbar, .topbar a:hover:not(.active), .sidebar a.active, .sidebar a:hover:not(.active) {
   background-color: #f19020;
 }
-.topbar a.active {
-  background-color: white;
-}
-.topbar a:hover:not(.active) {
-  background-color: #f19020;
-}
-
-/*sidebar*/
-.sidebar {
-  background-color: white;
-}
-.sidebar a.active {
-  background-color: #f19020;
-}
-.sidebar a:hover:not(.active) {
-  background-color: #f19020;
-}
-
-/*dropdown*/
-.dropdown-content {
-  background-color: white;
+.topbar a.active, .sidebar, .dropdown-content {
+  background-color: #ffffff;
 }
 
 /*tittel*/
 .section-1 {
   border: 10px solid #f19020;
-  background-color: white;
+  background-color: #ffffff;
 }
 
 /*gradering farger*/
 #grad1 {
   background-image: linear-gradient(rgba(255, 255, 255, 0), #f19020);
+}
+
+body {
+  background-color: black;
 }

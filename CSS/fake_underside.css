@@ -1,7 +1,14 @@
+/*grunn*/
+f {
+  letter-spacing: 2px;
+}
+
 .section-2 {
-  grid-area: 2 / 1 / span 1 / span 13;
-  border: solid black 2px;
+  grid-area: 2 / 2 / span 1 / span 13;
   margin-top: 25px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  margin-left: 20px;
 }
 
 .section-3 {
@@ -24,30 +31,11 @@ body {
   background-color: white;
 }
 
-/*topbar*/
-.topbar {
+/*topbar, sidebar, dropdown*/
+.topbar, .topbar a:hover:not(.active), .sidebar a.active, .sidebar a:hover:not(.active) {
   background-color: green;
 }
-.topbar a.active {
-  background-color: #d9fdf5;
-}
-.topbar a:hover:not(.active) {
-  background-color: green;
-}
-
-/*sidebar*/
-.sidebar {
-  background-color: #d9fdf5;
-}
-.sidebar a.active {
-  background-color: green;
-}
-.sidebar a:hover:not(.active) {
-  background-color: green;
-}
-
-/*dropdown*/
-.dropdown-content {
+.topbar a.active, .sidebar, .dropdown-content {
   background-color: #d9fdf5;
 }
 

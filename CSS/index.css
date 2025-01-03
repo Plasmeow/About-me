@@ -42,30 +42,11 @@ body {
   background-color: white;
 }
 
-/*topbar*/
-.topbar {
+/*topbar, sidebar, dropdown*/
+.topbar, .topbar a:hover:not(.active), .sidebar a.active, .sidebar a:hover:not(.active) {
   background-color: #5b5ec5;
 }
-.topbar a.active {
-  background-color: #d9ecfd;
-}
-.topbar a:hover:not(.active) {
-  background-color: #5b5ec5;
-}
-
-/*sidebar*/
-.sidebar {
-  background-color: #d9ecfd;
-}
-.sidebar a.active {
-  background-color: #5b5ec5;
-}
-.sidebar a:hover:not(.active) {
-  background-color: #5b5ec5;
-}
-
-/*dropdown*/
-.dropdown-content {
+.topbar a.active, .sidebar, .dropdown-content {
   background-color: #d9ecfd;
 }
 
