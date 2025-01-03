@@ -43,11 +43,15 @@ body {
 }
 
 /*topbar, sidebar, dropdown*/
-.topbar, .topbar a:hover:not(.active), .sidebar a.active, .sidebar a:hover:not(.active) {
+.sidebar a.active, .sidebar a:hover:not(.active), .navbar {
   background-color: #5b5ec5;
 }
 .topbar a.active, .sidebar, .dropdown-content {
   background-color: #d9ecfd;
+}
+
+.dropdown:hover .dropbtn, .dropbtn:focus, .navbar a:hover {
+  background-color: #2e3176;
 }
 
 /*tittel*/
@@ -55,6 +59,8 @@ body {
   border: 10px solid #5b5ec5;
   background-color: #d9ecfd;
 }
+
+
 
 /*gradering farger*/
 #grad1 {
