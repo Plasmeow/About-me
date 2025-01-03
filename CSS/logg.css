@@ -16,3 +16,46 @@
     font-size: 16px;
     background-color: #d9ecfd;
   }
+
+/*lilla*/
+  body {
+    background-color: white;
+  }
+  
+  /*topbar*/
+  .topbar {
+    background-color: #5b5ec5;
+  }
+  .topbar a.active {
+    background-color: #d9ecfd;
+  }
+  .topbar a:hover:not(.active) {
+    background-color: #5b5ec5;
+  }
+  
+  /*sidebar*/
+  .sidebar {
+    background-color: #d9ecfd;
+  }
+  .sidebar a.active {
+    background-color: #5b5ec5;
+  }
+  .sidebar a:hover:not(.active) {
+    background-color: #5b5ec5;
+  }
+  
+  /*dropdown*/
+  .dropdown-content {
+    background-color: #d9ecfd;
+  }
+  
+  /*tittel*/
+  .section-1 {
+    border: 10px solid #5b5ec5;
+    background-color: #d9ecfd;
+  }
+  
+  /*gradering farger*/
+  #grad1 {
+    background-image: linear-gradient(rgba(255, 255, 255, 0), #5b5ec5);
+  }

@@ -1,3 +1,43 @@
+/*hovedside*/
+
+.portrett {
+  height: 350px;
+  width: auto;
+  float: right;
+}
+
+/*fortelle kort om nettside*/
+.section-2{
+  margin-top: 20px;
+  grid-area: 2 / 1 / span 1 / span 13;
+  border: solid rgba(0, 0, 0, 0.496) 5px;
+  padding: 10px;
+}
+
+/*skisser av nettside*/
+.section-3{
+  margin-top: 20px;
+  grid-area: 3 / 1 / span 1 / span 13;
+  text-align: center;
+}
+
+/*posisjon av skisser*/
+.b1 {
+  height: 250px;
+  width: auto;
+}
+
+.b2 {
+  height: 200px;
+  width: auto;
+}
+
+.b3 {
+  height: 300px;
+  width: auto;
+}
+
+/*lilla*/
 body {
   background-color: white;
 }
