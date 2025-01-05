@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    color: white;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar-2 {
+    margin: 0;
+    margin-top: 0;
+    padding: 0;
+    width: 15%;
+    position: fixed;
+    right: 0;
+    height: 100%;
+}
+
+/*lilla*/
+body {
+    background-color: rgb(0, 0, 0);
+  }
+  
+  /*topbar, sidebar, dropdown*/
+  .sidebar, .sidebar-2 {
+    background-color: #3e3e3e;
+  }
+
+  .sidebar a.active, .sidebar a:hover:not(.active) {
+    background-color: rgb(26, 26, 26);
+  }
+  
+  /*gradering farger*/
+  #grad1 {
+    background-image: linear-gradient(rgba(255, 255, 255, 0), #ffffff);
+  }

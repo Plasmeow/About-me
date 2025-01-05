@@ -1,0 +1,45 @@
+.section-2 {
+    grid-area: 2 / 1 / span 1 / span 13;
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 24px;
+    background-color: white;
+    border: solid #5b5ec5 5px;
+    text-align: center;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse; 
+    padding: 10px;
+    min-width: 100px;
+    font-size: 16px;
+    background-color: #d9ecfd;
+  }
+
+/*lilla*/
+body {
+  background-color: rgb(35, 1, 68);
+}
+
+/*topbar, sidebar, dropdown*/
+.sidebar a.active, .sidebar a:hover:not(.active), .navbar {
+  background-color: #5b5ec5;
+}
+.topbar a.active, .sidebar, .dropdown-content, .section-1 {
+  background-color: #d9ecfd;
+}
+
+.dropdown:hover .dropbtn, .dropbtn:focus, .navbar a:hover {
+  background-color: #2e3476;
+}
+
+/*tittel*/
+.section-1 {
+  border: 10px solid #5b5ec5;
+}
+
+/*gradering farger*/
+#grad1 {
+  background-image: linear-gradient(rgba(255, 255, 255, 0), #5b5ec5);
+}

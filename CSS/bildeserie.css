@@ -1,0 +1,76 @@
+/*grunn*/
+f {
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+.section-2 {
+  color: white;
+  letter-spacing: 0.5px;
+  grid-area: 2 / 2 / span 1 / span 13;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  line-height: 30px;
+}
+
+.section-3 {
+  grid-area: 3 / 1 / span 1 / span 13;
+  text-align: center;
+ }
+
+ .bildeserie {
+   height: 250px;
+   width: auto;
+ }
+
+.section-4 {
+  color: white;
+  letter-spacing: 0.5px;
+  grid-area: 4 / 2 / span 1 / span 13;
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+}
+
+.section-4 a{
+  color: inherit;
+}
+
+.section-4 a:hover{
+  color: #f19020;
+}
+
+/*lenke*/
+a.serie:link {text-decoration: underline; color: white; font-style: normal;}
+a.serie:visited {color: white; font-style: italic;}
+a.serie:hover {color: #f19020; font-style: italic;} 
+a.serie:active {color: #f19020; font-style: italic;}
+
+/*oransje*/
+body {
+  background-color: rgb(45, 7, 7);
+}
+
+/*topbar, sidebar, dropdown*/
+.sidebar a.active, .sidebar a:hover:not(.active), .navbar {
+  background-color: #f19020;
+}
+.topbar a.active, .sidebar, .dropdown-content, .section-1 {
+  background-color: #ffffff;
+}
+
+.dropdown:hover .dropbtn, .dropbtn:focus, .navbar a:hover {
+  background-color: #a54d24;
+}
+
+/*tittel*/
+.section-1 {
+  border: 10px solid #f19020;
+}
+
+/*gradering farger*/
+#grad1 {
+  background-image: linear-gradient(rgba(255, 255, 255, 0), #f19020);
+}
