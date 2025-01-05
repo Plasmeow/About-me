@@ -50,7 +50,7 @@ let du_tapte=new Audio('tap.wav');
 
 
 var rounds = [5, 3, 2];  //antall runder og poeng
-var colors = ['#5b5ec5', '00ff00', '#f19020'];
+var colors = ['#5b5ec5', '00ff00', '#f19020', '#e75fcc', '#9b59b6'];
 
 //ball
 var Ball = {
@@ -82,7 +82,7 @@ var Ai = {
   }
 };
 
-//canvas
+//selve spillet
 var Game = {
   initialize: function () {
       this.canvas = document.querySelector('canvas');
@@ -109,11 +109,11 @@ var Game = {
   },
 
   endGameMenu: function (text) {
-      // Canvas skrifttfarge-og type
+      // Change the canvas font size and color
       Pong.context.font = '45px Arial, Helvetica, sans-serif';
       Pong.context.fillStyle = this.color;
 
-      // Rektangel bak 'press tastaturet for å begynne' tekst
+      // Draw the rectangle behind the 'Press any key to begin' text.
       Pong.context.fillRect(
           Pong.canvas.width / 2 - 350,
           Pong.canvas.height / 2 - 48,
@@ -124,7 +124,7 @@ var Game = {
       // Change the canvas color;
       Pong.context.fillStyle = '#ffffff';
 
-      // Slutt av spill "seier!" eller "tap..."
+      // Draw the end game menu text ('Game Over' and 'Winner')
       Pong.context.fillText(text,
           Pong.canvas.width / 2,
           Pong.canvas.height / 2 + 15
@@ -249,7 +249,7 @@ var Game = {
 
           }
       }
-      // Sjekker om KIen vant
+      // Check to see if the ai/AI has won the round.
       else if (this.ai.score === rounds[this.round]) {
           this.over = true;
           setTimeout(function () { Pong.endGameMenu('Tap...'); }, 1000);
