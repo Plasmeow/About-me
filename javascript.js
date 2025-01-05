@@ -156,7 +156,7 @@ var Game = {
       this.context.fillStyle = '#ffffff';
 
       // Draw the 'press any key to begin' text
-      this.context.fillText('Press tastaturet for å begynne',
+      this.context.fillText('Press mellomrom for å begynne',
           this.canvas.width / 2,
           this.canvas.height / 2 + 15
       );
