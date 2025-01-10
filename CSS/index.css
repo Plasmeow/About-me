@@ -1,9 +1,9 @@
 /*grunninfor*/
 
-/*lenke*/
-a.meg:link {text-decoration: underline; color: white; font-style: normal;}
-a.meg:visited {color: white; font-style: italic;}
-a.meg:hover {color: rgb(255, 230, 66); font-style: italic;} 
+/*av meg lenke*/
+a.meg:link {text-decoration: underline; color: rgb(255, 230, 66); font-style: normal;}
+a.meg:visited {color: rgb(255, 230, 66);  font-style: italic;}
+a.meg:hover {color: rgb(255, 183, 28); font-style: italic;} 
 a.meg:active {color: rgb(255, 230, 66); font-style: italic;}
 
 
@@ -39,26 +39,41 @@ a.meg:active {color: rgb(255, 230, 66); font-style: italic;}
   opacity: 100%;
 }
 
-/*skissedel*/
+/*SKISSEDEL*/
 .section-4{
   margin-top: 20px;
   line-height: 30px;
   grid-area: 3 / 1 / span 1 / span 13;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
+ /*til info*/
 .indent_h {
   text-indent: 5%;
   line-height: 0%;
 }
 
-/*bildebredde*/
+/*feles - bilder*/
+/*bredde*/
 .b1, .b2, .b3 {
-width: auto;
+  width: 92%;
 }
+/*bilde - venstre*/
+.b2, .b2_over, .b2_under {
+  margin-right: 8%;
+}
+/*bilde - høyre*/
+.b1, .b1_over, .b1_under
+.b3, .b3_over, .b3_under {
+  margin-left: 8%;
+}
+
 
 /*idé 1*/
 .b1 {
   height: 350px;
+  float: right;
 }
 
 .b1_boks {
@@ -81,12 +96,11 @@ width: auto;
   margin-top: 0%;
 }
 
-
 /*idé 2*/
+
 .b2 {
-  margin-right: 3%;
-  width: 97%;
   height: 200px;
+  float: left;
 }
 
 .b2_boks {
@@ -94,7 +108,7 @@ width: auto;
   text-align: center;
   float: left;
   margin-top: 9.8%;
-  margin-bottom: -1.5%;
+  margin-bottom: -3%;
 }
 
 .b2_over {
@@ -103,24 +117,23 @@ width: auto;
   padding-top: 15px;
   margin-bottom: 0%;
   margin-top: 3%;
-  margin-right: 3%;
 }
 
 .b2_under {
   margin-top: 0%;
-  margin-right: 3%;
 }
 
 /*idé 3*/
 .b3 {
   height: 300px;
+  float: right;
 }
 
 .b3_boks {
-  shape-outside: url(../Bilder/Idé_ds.png);
+  shape-outside: url(../Bilder/Idé2_ds.png);
   text-align: center;
   float: right;
-  margin-top: 9.8%;
+  margin-top: -5%;
   margin-bottom: -2.5%;
 }
 
@@ -129,7 +142,7 @@ width: auto;
   background-color: white;
   padding-top: 15px;
   margin-bottom: 0%;
-  margin-top: 0%;
+  margin-top: 10%;
 }
 
 .b3_under {
