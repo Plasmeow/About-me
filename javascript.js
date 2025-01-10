@@ -48,7 +48,6 @@ let du_vant=new Audio('vinn.wav');
 let du_tapte=new Audio('tap.wav');
   du_tapte.volume=1;
 
-
 var rounds = [5, 3, 2];  //antall runder og poeng
 var colors = ['#5b5ec5', '00ff00', '#f19020', '#e75fcc', '#9b59b6'];
 
@@ -313,7 +312,7 @@ var Game = {
       this.context.moveTo((this.canvas.width / 2), this.canvas.height - 140);
       this.context.lineTo((this.canvas.width / 2), 140);
       this.context.lineWidth = 10;
-      this.context.strokeStyle = '#ffffff';
+      this.context.strokeStyle = '#000000';
       this.context.stroke();
 
       // Set the default canvas font and align it to the center

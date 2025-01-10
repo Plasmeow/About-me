@@ -6,7 +6,6 @@ f {
 
 .section-2 {
   grid-area: 2 / 2 / span 1 / span 13;
-  margin-top: 25px;
   letter-spacing: 0.5px;
   text-align: left;
   margin-left: 20px;

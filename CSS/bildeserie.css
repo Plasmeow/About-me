@@ -8,7 +8,6 @@ f {
   color: white;
   letter-spacing: 0.5px;
   grid-area: 2 / 2 / span 1 / span 13;
-  margin-top: 25px;
   margin-bottom: 50px;
   margin-left: 20px;
   line-height: 30px;
@@ -20,7 +19,7 @@ f {
  }
 
  .bildeserie {
-   height: 250px;
+   height: 300px;
    width: auto;
  }
 
@@ -28,9 +27,6 @@ f {
   color: white;
   letter-spacing: 0.5px;
   grid-area: 4 / 2 / span 1 / span 13;
-
-  margin-top: 50px;
-  margin-bottom: 50px;
   margin-left: 20px;
 }
 

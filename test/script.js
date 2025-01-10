@@ -23,6 +23,7 @@ const a = {
 };                        // 
 console.log("Vent nå litt, er det",a[1], a[2], lastName + "?")
 
+
 //a = alt som er mellom { }, vi bruker [ ] for å vise til hvilken del av a
 //man vil skal vises i terminalen
 
