@@ -25,11 +25,6 @@ a.meg:active {color: rgb(255, 230, 66); font-style: italic;}
   grid-area: 2 / 10 / span 1 / span 4;
 }
 
-.maskot:hover{
-  transition: .5s ease;
-  opacity: 100%;
-}
-
 /*SKISSEDEL*/
 .section-4{
   margin-top: 20px;
