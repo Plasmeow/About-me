@@ -10,8 +10,8 @@ a.meg:active {color: rgb(255, 230, 66); font-style: italic;}
 /*tekst margin*/
 .section-2, .section-3, .section-4 {
   color: white;
-  margin-right: 15px;
-  margin-left: 15px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 /*fortelle kort om nettside*/
@@ -44,8 +44,6 @@ a.meg:active {color: rgb(255, 230, 66); font-style: italic;}
   margin-top: 20px;
   line-height: 30px;
   grid-area: 3 / 1 / span 1 / span 13;
-  margin-left: 5%;
-  margin-right: 5%;
 }
 
  /*til info*/

@@ -33,6 +33,7 @@ h1 {
     font-family:'Times New Roman', Times, serif;
   }
 
+/*main*/
 .container-1 {
   display: grid;
   grid-template-columns: repeat(13, 1fr);
