@@ -20,16 +20,6 @@ a.meg:active {color: rgb(255, 230, 66); font-style: italic;}
   line-height: 40px;
 }
 
-/*maskot*/
-.maskot {
-  float: right;
-}
-
-.maskot_bilde{
-  margin-bottom: -10%;
-  text-align: center;
-}
-
 /*SKISSEDEL*/
 .section-3{
   margin-top: 20px;
