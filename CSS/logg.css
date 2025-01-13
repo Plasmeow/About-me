@@ -1,5 +1,15 @@
-.section-2, .section-3 {
+.section-2{
     grid-area: 2 / 1 / span 1 / span 13;
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 24px;
+    background-color: white;
+    border: solid #5b5ec5 5px;
+    text-align: center;
+  }
+
+  .section-3{
+    grid-area: 3 / 1 / span 1 / span 13;
     margin-top: 50px;
     padding: 20px;
     font-size: 24px;
