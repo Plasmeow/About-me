@@ -14,10 +14,6 @@ a.meg:active {color: rgb(255, 230, 66); font-style: italic;}
   margin-right: 60px;
 }
 
-.maskot {
-  grid-area: 2 / 1 / span 1 / span 13;
-}
-
 /*fortelle kort om nettside*/
 .section-2{
   grid-area: 2 / 1 / span 1 / span 13;
