@@ -4,25 +4,6 @@
   margin-left: 15px;
 }
 
-
-/*navn*/
-
-.navn {
-  transition: .5s ease;
-  font-size: 25px;
-  display: inline-block;
-}
-
-.oli {
-  height: 50px;
-  transition: .5s ease;
-  opacity: 100%;
-  text-align: left;
-  margin-top: -100%;
-  margin-left: -1.5%;
-  margin-right: -1.2%;
-}
-
 /*lilla*/
 body {
   background-color: rgb(55, 7, 102);
